@@ -1,0 +1,79 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Teko", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1.5px rgb(42, 122, 288);
+    padding: 20px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chamada {
+    background: rgb(68, 23, 106);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-de-texto {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.chamada-de-video {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+
+}
+
+.categoria-video img {
+    opacity: 0.4;
+    height: 200px;
+}
+
+
+.categoria-video img:hover {
+    opacity: 1;
+    border: 2px solid green;
+
+}
+
+.categoria h2 {
+    color: rgb(173, 2, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
